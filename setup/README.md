@@ -16,7 +16,7 @@ OR
 1. Obtain your [name dot com API key](https://www.name.com/account/settings/api).
 2. Set the secret `TF_VAR_name_dot_com_user` to your name dot com username.
 3. Set the secret `TF_VAR_name_dot_com_token` to your name dot com token.
-4. Setup a s3 bucket (or similar) based on your needs for state storage. For s3, follow the terraform [instructions](https://developer.hashicorp.com/terraform/language/settings/backends/s3#s3-bucket-permissions).
+4. Setup a s3 bucket (or similar) based on your needs for state storage. For s3, follow the terraform [instructions](https://developer.hashicorp.com/terraform/language/settings/backends/s3#s3-bucket-permissions). Set the secret `BUCKET_TF_STATE` to the bucket name.
 5. Set the secrets `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`.
 
 ## Initial Setup (Existing Domain)
