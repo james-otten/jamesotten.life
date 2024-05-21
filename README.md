@@ -19,4 +19,4 @@ resource "namedotcom_record" "record_mail_244961307" {
 
 ## Setup
 
-To use this repository as a template for managing other existing DNS zones hosted by [name.com](https://name.com), see [./setup/README.md](./setup/README.md).
+To use this repository as a template for managing other existing DNS zones hosted by [name.com](https://name.com), see [setup/README.md](./setup/README.md).
