@@ -1,0 +1,7 @@
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+setup/import.sh
+setup/venv/
+env.sh
