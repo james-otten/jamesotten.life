@@ -54,3 +54,10 @@ resource "namedotcom_record" "record_asdf_245026461" {
   record_type = "A"
   answer      = "127.0.0.1"
 }
+
+resource "namedotcom_record" "meta" {
+  domain_name = "jamesotten.life"
+  host        = "meta"
+  record_type = "A"
+  answer      = "169.254.169.254"
+}
