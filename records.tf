@@ -68,3 +68,10 @@ resource "namedotcom_record" "meshcname" {
   record_type = "CNAME"
   answer      = "wiki.mesh.nycmesh.net"
 }
+
+resource "namedotcom_record" "lasttest" {
+  domain_name = "jamesotten.life"
+  host        = "lasttest"
+  record_type = "A"
+  answer      = "127.0.0.1"
+}
