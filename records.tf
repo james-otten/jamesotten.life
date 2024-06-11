@@ -75,3 +75,10 @@ resource "namedotcom_record" "lasttest" {
   record_type = "A"
   answer      = "127.0.0.1"
 }
+
+resource "namedotcom_record" "scan" {
+  domain_name = "jamesotten.life"
+  host        = "scan"
+  record_type = "A"
+  answer      = "10.70.90.120"
+}
